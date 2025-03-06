@@ -102,8 +102,12 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
-  border-radius: 0;
+  background-color: #807500;
+  border-radius: 0.25em;
+}
+.tags-bar .nav-link.active-tag {
+  background-color: #807500;
+  color: white;
 }
 .nav-pills .nav-link {
   color: #000;
@@ -145,6 +149,7 @@ body {
 }
 .quote__text {
   font-family: Spectral;
+  font-size: 35px;
   font-style: italic;
   font-weight: 300;
 }
